@@ -9,4 +9,10 @@ public class Coche {
 		
 	}
 
+
+	public void decelerar(int deceleracion) {
+		velocidad = velocidad - deceleracion;
+		
+	}
+
 }
